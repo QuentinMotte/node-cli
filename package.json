@@ -1,0 +1,27 @@
+{
+  "name": "cli-holidates-cli",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "holidates": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "holidates": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuentinMotte/node-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QuentinMotte/node-cli/issues"
+  },
+  "homepage": "https://github.com/QuentinMotte/node-cli#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "country-list": "^2.2.0"
+  }
+}
